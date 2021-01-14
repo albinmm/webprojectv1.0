@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica';
+}
+html body{
+	width: 100%;
+	height: 100%;
+}
+.container{
+	width: 100%;
+}
+.mbr{
+	margin-top: 100px;
+}
+.main{
+	width: 90%;
+	margin: 0 auto;
+	display: flex; 
+	flex-grow: inherit;
+	flex-direction: row;
+	height: 1400px;
+	justify-content: center;
+}
+.main h2{
+	margin: 0 auto;
+	height: 35px;
+	border: 1px solid black;
+}
+form{
+
+	position: absolute;
+	height: 900px;
+	width: 650px;
+	margin-top: 100px;
+
+}
+table{
+	position:  absolute;
+	margin: 7% auto 0 auto;
+	border: 1px solid black;
+}
+td{
+	padding: 60px;
+}
+input[type = "submit"]{
+	width: 100px;
+	height: 40px;
+	margin-left: 20px;
+	background-color: steelblue;
+	color: white;
+	font-size: 20px;
+}

@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica';
+}
+html body{
+	width: 100%;
+	height: 100%;
+}
+.container{
+	width: 100%;
+}
+.mbr{
+	margin-top: 100px;
+}
+.nav{
+	width: 95%;
+	height: 140px;
+	background-color: #e25345;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-grow: inherit;
+	align-items: center;
+}
+.logo{
+	float: left;
+}
+.menu{
+	margin-left: 73%;
+}
+
+.disabled{
+	pointer-events: none;
+}
+.top-nav{
+	display: flex;
+	flex-direction: row;
+	flex-grow: inherit;
+	align-items: center;
+	margin-top: -5em;
+}
+.menu-item{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-grow: inherit;
+	margin-right: 30px;
+}
+.top-nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+}
+.top-nav a:hover{
+	font-weight: 700;
+	color: lightgray;
+}
+.main{
+	margin-top: 5%;
+	width: 100%;
+	height: 1600px;
+	display: flex;
+	flex-grow: inherit;
+	flex-direction: column;
+}
+.img{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.img-text{
+	display: flex;
+	flex-grow: inherit;
+	font-size: 35px;
+	font-weight: 350;
+	color: white;
+	position: absolute;
+  	bottom: 80px;
+  	left: 20%;
+  	border-top: 3px solid #e25345;
+  	padding-top: 10px;
+}
+.img-text:hover{
+	color: lightgray;
+}
+.main-text{
+	width: 90%;
+	margin: 0 auto;
+	height: 1000px;
+	margin-top: -10%;
+	text-align: left;
+}
+.main-text h2{
+	margin-top: 4%;
+	font-size: 36px;
+	font-weight: 300;
+	display: flex;
+	justify-content: center;
+	flex-grow: inherit;
+	padding-bottom: 40px;
+}
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
